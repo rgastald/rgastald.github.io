@@ -91,9 +91,11 @@ contient un modèle en commentaire pour créer une section *Posters* ou
 2. Pousser ce dépôt :
 
    ```bash
-   git -C ~/rgastald.github.io remote add origin git@github.com:rgastald/rgastald.github.io.git
    git -C ~/rgastald.github.io push -u origin main
    ```
+
+   Le remote `origin` est déjà configuré en HTTPS (le port SSH 22 est bloqué
+   depuis le réseau de l'école).
 
 3. Dans *Settings → Pages*, choisir **Deploy from a branch**, branche `main`,
    dossier `/ (root)`. Le site est en ligne au bout d'une minute environ.
