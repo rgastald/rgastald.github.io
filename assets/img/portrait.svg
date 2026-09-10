@@ -1,8 +1,0 @@
-<!-- Placeholder portrait. Replace by your own square photo (see README). -->
-<!-- Background is translucent so the monogram works on both light and dark pages. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Portrait placeholder">
-  <rect width="400" height="400" fill="#2b5876" fill-opacity=".10"/>
-  <text x="200" y="205" text-anchor="middle" dominant-baseline="central"
-        font-family="Georgia, 'Times New Roman', serif" font-size="140" font-weight="600"
-        letter-spacing="6" fill="#7f95a8">RG</text>
-</svg>

@@ -22,7 +22,7 @@ publications/index.html Prépublications et articles
 events/index.html       Exposés
 assets/css/main.css     Toute la mise en forme (thèmes clair/sombre inclus)
 assets/js/theme.js      Bouton de bascule clair/sombre
-assets/img/portrait.svg Photo (placeholder à remplacer)
+assets/img/portrait.jpg Photo de profil (carré, 480x480)
 assets/files/cv.pdf     CV téléchargeable
 .nojekyll               Désactive Jekyll sur GitHub Pages (site purement statique)
 ```
@@ -32,12 +32,10 @@ pages : si vous ajoutez une page, pensez à ajouter son entrée dans les cinq fi
 
 ## Mises à jour courantes
 
-**Remplacer la photo.** Déposer une photo carrée dans `assets/img/`, par exemple
-`portrait.jpg`, puis modifier la ligne correspondante dans `index.html` :
-
-```html
-<img class="home-sidebar__photo" src="/assets/img/portrait.jpg" alt="Portrait of Raphaël Gastaldello">
-```
+**Remplacer la photo.** Écraser `assets/img/portrait.jpg` par une autre image
+**carrée** (le CSS l'affiche dans un cadre 1:1 avec `object-fit: cover`, donc une
+image non carrée serait rognée en son centre). 480x480 suffit : la photo est
+affichée à 240 px, ce qui laisse la marge nécessaire aux écrans haute densité.
 
 **Mettre à jour le CV PDF.**
 
