@@ -85,53 +85,12 @@
       London project, in collaboration with
       <a href="https://www.ma.imperial.ac.uk/~pavl/">Grigorios A. Pavliotis</a>.</p>
 
-      <p>My work sits at the interface of analysis, probability and numerical methods, on problems arising
-      in statistical physics. I am interested in quantities that are expensive to estimate by direct
-      simulation — transport coefficients and rare event probabilities — and in the mathematical analysis
-      that explains why, and by how much, a given estimator can be improved.</p>
+      <h2 id="research-interests">Research interests</h2>
 
-      <h2 id="research">Research</h2>
-
-      <h3>Transport coefficients and dynamical reweighting</h3>
-      <p>Transport coefficients — mobility, thermal conductivity, self-diffusion — measure the linear
-      response of a molecular system to a small external perturbation. They can be estimated either from a
-      nonequilibrium dynamics, extrapolating to a vanishing forcing, or through Green–Kubo formulas that
-      express them as integrated time correlations at equilibrium. Both routes suffer from a poor
-      signal-to-noise ratio: the quantity of interest is a small response buried in thermal fluctuations. I
-      study importance sampling strategies based on Girsanov's theorem, which reweight trajectories of the
-      reference dynamics onto those of a modified one, together with the asymptotic analysis of the
-      variance of the resulting estimators.</p>
-
-      <h3>Rare events and adaptive multilevel splitting</h3>
-      <p>Reaction rates and metastable transition probabilities are governed by events so unlikely that
-      direct Monte Carlo simulation never observes them. Adaptive Multilevel Splitting (AMS) replaces a
-      single rare event by a sequence of likely ones: replicas are simulated in parallel, the least advanced
-      along a reaction coordinate — a score function — are discarded, and the survivors are branched. How
-      efficient the method is depends critically on how well that score approximates the committor of the
-      dynamics. I work on this dependence, on the variance of the resulting estimators, and on combining
-      AMS with importance sampling — in particular on the initial condition — so that the method remains
-      reliable when the score is imperfect.</p>
-
-      <h3>Mean-field limits of interacting particle systems</h3>
-      <p>A system of weakly interacting particles converges, as the number of particles grows, to a
-      nonlinear McKean–Vlasov equation. For kinetic (underdamped) dynamics one may also send the friction
-      to infinity, which yields an overdamped, diffusive description. With G. A. Pavliotis, G. Stoltz and
-      U. Vaes, I study the regime in which these two limits are taken jointly, for a kinetic weakly
-      interacting particle system.</p>
-
-      <h3>Convergence to equilibrium and hypocoercivity</h3>
-      <p>The Fokker–Planck equations attached to kinetic dynamics are degenerate: dissipation acts on the
-      velocities only, and the generator is neither symmetric nor coercive. Hypocoercive techniques
-      nonetheless give quantitative exponential rates of convergence to equilibrium. Such estimates are the
-      analytical backbone of the error and variance analyses above, and I use them both in the study of
-      mean-field models and in the analysis of sampling algorithms.</p>
-
-      <p>The numerical experiments in my work are implemented in <a href="https://julialang.org/">Julia</a>.</p>
-
-      <h3>Earlier work</h3>
-      <p>Before starting my Ph.D., I worked with A. Henrot and I. Lucardesi on the Blaschke–Santaló diagram
-      of area, perimeter and moment of inertia — a question in convex geometry and shape optimization,
-      describing which triples of these three quantities are attainable by planar convex bodies.</p>
+      <p>My research is driven by physically motivated questions, at the interface of analysis, probability
+      and numerical methods. I am mainly interested in the efficient computation of transport coefficients
+      and rare event probabilities, in interacting particle systems and their mean-field limits, and in
+      quantitative convergence to equilibrium.</p>
 
       <h2 id="elsewhere">Elsewhere on this site</h2>
       <ul>
